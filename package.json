@@ -1,0 +1,20 @@
+{
+  "name": "servertest",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/serizawa0/serverTest#readme",
+  "bugs": {
+    "url": "https://github.com/serizawa0/serverTest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serizawa0/serverTest.git"
+  },
+  "license": "ISC",
+  "author": "serizawa",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
