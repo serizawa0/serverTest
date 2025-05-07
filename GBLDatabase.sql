@@ -5,7 +5,7 @@
 -- Dumped from database version 17.4
 -- Dumped by pg_dump version 17.4
 
--- Started on 2025-05-07 09:20:48
+-- Started on 2025-05-07 10:09:06
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -421,7 +421,7 @@ ALTER TABLE ONLY public."User"
     ADD CONSTRAINT "User_idUserCat_fkey" FOREIGN KEY ("idUserCat") REFERENCES public."UserCategorie"("idUserCat") ON UPDATE CASCADE ON DELETE RESTRICT;
 
 
--- Completed on 2025-05-07 09:20:50
+-- Completed on 2025-05-07 10:09:06
 
 --
 -- PostgreSQL database dump complete
